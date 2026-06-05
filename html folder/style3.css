@@ -1,0 +1,76 @@
+.textarea{
+    background-image:url('bc.jpeg');
+    background-position: center;
+	height:300px;
+	
+	text-align:center;
+	display:column;
+	width:100%;
+color:white;}
+	
+
+.container{background-image:url('bc.jpeg');
+    background-position: center;
+height:300px;}
+
+
+
+.nav ul { display:flex;
+
+list-style-type:none;
+gap:20px;
+background-color:#a67f38;
+justify-content:flex-end;
+text-decoration:none;
+}
+
+ul a{text-decoration:none;}
+
+.container2{display:flex;
+            gap :200px;
+			justify-content:center;
+			
+			}
+			
+.pic1{ justify-content:center;
+      flex-direction:column;
+	  text-align:center;}	
+
+.pictures{display: grid;
+    /* එක සමාන තීරු (columns) 3ක් සාදයි */
+    grid-template-columns: repeat(3, 1fr); 
+    /* කොටු අතර පරතරය (gap) */
+    gap: 25px; 
+    max-width: 1100px;
+    margin: 0 auto; /* Grid එක screen එකේ මැදට ගැනීමට */
+
+}
+.box1{width: 100%;
+    height: 220px; /* පින්තූරයේ උස */
+    object-fit: cover; /* පින්තූරය ඇද නොවී ලස්සනට කොටුවට ගැලපීමට */
+    display: block;
+	border-radius:4px;
+	overflow: hidden; /* පින්තූරය card එකෙන් පිටතට යාම වැලැක්වීමට */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
+	margin:0 auto;
+	
+	
+}
+
+.port{ background-color:#c9c7c3;}
+
+
+.teachers{display:flex;
+          gap:100px;
+		  justify-content:center;}
+		  
+.teachers img{	border-radius:50%;
+          object-fit:cover;
+}	  
+		  
+		  
+		  
+
+
+
+      
